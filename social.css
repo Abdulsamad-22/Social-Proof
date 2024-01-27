@@ -1,0 +1,181 @@
+body{
+	font-family: inter, sans-serif;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vp;
+	margin-left: 80px;
+}
+
+section{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	width: 1200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.bg-left{
+	position: fixed;
+	top: -15px;
+	left: -80px;
+}
+
+.bg-right{
+	max-width: 100%;
+	height: auto;
+	position: fixed;
+	top: 80px;
+	right: 0;
+}
+
+.left-section{
+	width: 600px;
+}
+
+.stats{
+	font-size: 3.125rem;
+	font-weight: 600;
+	color: #47224E;
+	width: 350px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.stats-info{
+	font-size: 1rem;
+	color: #948397;
+	line-height: 1.25rem;
+	width: 350px;
+}
+
+.rating-container{
+	position: relative;
+	margin-top: 35px;
+	margin-left: 12px;
+}
+
+.ratings-1,
+.ratings-2,
+.ratings-3{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	white-space: nowrap;
+	width: 350px;
+	border-radius: 8px;
+	padding: 16px 32px 16px 16px;
+	background-color: #F5EAF6;
+	margin-bottom: 12px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.ratings-2{
+	position: absolute;
+	top: 65px;
+	left: 50px;
+}
+
+.ratings-3{
+	position: absolute;
+	top: 127px;
+	left: 105px;
+}
+
+.star-rating{
+	margin-right: 20px;
+	margin-left: 12px;
+}
+
+.star{
+	width: 16px;
+}
+
+.rating-text{
+	font-size: 1rem;
+	font-weight: 600;
+	color: #47224E;
+}
+
+.review-section{
+	display: flex;
+	justify-content: space-between;
+	background-color: lightpink;
+	width: 1200px;
+	position: relative;
+}
+
+.card1,
+.card2,
+.card3{
+	background-color: #47224E;
+	width: 300px;
+	padding: 32px 24px 24px 24px;
+	border-radius: 8px;
+}
+
+.about-customer{
+	display: grid;
+	grid-template-columns: 40px 1fr;
+	column-gap: 12px;
+	margin-bottom: 20px;
+}
+
+
+.customer-profile{
+	width: 40px;
+	justify-self: center;
+}
+.customer-profile img{
+	width: 100%;
+	background-color: gray;
+	border-radius: 20px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.customer-name,
+.customers-post {
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+	color: white;
+	margin-bottom: 0px;
+	margin-top: 0;
+	justify-self: center;
+}
+
+.customers-post{
+	color: #B617AF;
+	margin-top: 4px;
+}
+
+.customers-review{
+	font-size: 1rem;
+	color: #ECE9ED;
+	line-height: 1.5rem;
+}
+
+.card1{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card2{
+	position: absolute;
+	top: 25px;
+	left: 380px;
+}
+
+.card3{
+	position: absolute;
+	top: 50px;
+	left: 760px;
+}
